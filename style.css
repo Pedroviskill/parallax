@@ -1,0 +1,107 @@
+body {
+    margin: o;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+H2,H3,H4,H5,H6{
+
+    font-weight: 900;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    color:whitesmoke;
+    text-align: center;
+}
+
+.Principal{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+main{
+    display: block;
+    background-color: black;
+}
+
+.conteiner{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ 
+section.module p {
+    margin-bottom: 40px;
+}
+section.module:last-child{
+    margin-bottom: 0;
+
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+
+}
+
+section.module.content{
+    padding: 40px 0;
+    background: #ece7d5;
+
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; 
+}
+
+section.module.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+section.module.parallax-1 {
+    background-image: url("6560061.jpg");
+
+}
+
+section.module.parallax-2 {
+    background-image: url("Sol");
+}
+
+section.module.parallax-3 {
+    background-image: url("lua.jpg");
+}
+
+section.module.parallax-4 {
+    background-image: url("Mercurio.png");
+
+}
+
